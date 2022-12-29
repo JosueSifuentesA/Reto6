@@ -1,0 +1,333 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root{
+
+    
+        
+    /*Colors*/
+
+    /*Primary*/
+
+    --blue: hsl(246, 80%, 60%);
+
+    --lightRed1: hsl(15, 100%, 70%);   /*(work)*/
+    --softBlue: hsl(195, 74%, 62%); /*(play)*/
+    --lightRed: hsl(348, 100%, 68%); /*(study)*/
+    --limeGreen: hsl(145, 58%, 55%); /*(exercise)*/
+    --violet: hsl(264, 64%, 52%); /*(social)*/
+    --softOrange: hsl(43, 84%, 65%); /*(self care)*/
+
+    /* Neutral*/
+
+    --veryDarkBlue: hsl(226, 43%, 10%);
+    --darkBlue: hsl(235, 46%, 20%);
+    --desaturatedBlue: hsl(235, 45%, 61%);
+    --paleBlue: hsl(236, 100%, 87%);
+
+    /* Typography*/
+
+    /* Body Copy
+    - Font size: 18px (card titles e.g. Work, Play)
+    */
+
+    /*Font
+    
+    - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
+    - Weights: 300, 400, 500
+    
+    */
+
+
+
+
+
+}
+
+*{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--veryDarkBlue);
+}
+
+.main{
+    width: 350px;
+    height: 100%;
+    margin: auto;
+}
+
+
+.dataUser_divTime{
+    display: flex;
+    background-color: var(--darkBlue);
+    justify-content: space-around;
+    padding: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    color: var(--desaturatedBlue);
+    
+}
+
+
+.divUserDataTime_header--work{
+    background-color: var(--lightRed1);
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    height: 50px;
+    z-index: 10;
+}
+
+.divUserDataTime_header--play{
+    background-color: var(--softBlue);
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    height: 50px;
+    z-index: 10;
+}
+
+.divUserDataTime_header--study{
+    background-color: var(--lightRed);
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    height: 50px;
+    z-index: 10;
+}
+
+.divUserDataTime_header--social{
+    background-color: var(--violet);
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    height: 50px;
+    z-index: 10;
+}
+
+.divUserDataTime_header--exercise{
+    background-color: var(--limeGreen);
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    height: 50px;
+    z-index: 10;
+}
+
+.divUserDataTime_header--selfCare{
+    background-color: var(--softOrange);
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+    height: 50px;
+    z-index: 10;
+}
+
+.header_icon{
+    position: relative;
+    left: 250px;
+    z-index: 10;
+    
+}
+
+.dataUser_textInformation{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.textInformation_label{
+    color: var(--paleBlue);
+    font-size: 16px;
+}
+
+.divUserDataTime{
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    height: 150px;
+}
+
+.divUserDataTime_content{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    background-color: var(--darkBlue);
+    position: relative;
+    z-index: 200;
+    
+}
+
+.divUserDataTime_content:hover{
+    
+    background-color: #34397b;
+    position: relative;
+    z-index: 200;
+}
+
+
+.content_elipsis{
+    position: relative;
+    left:80px;
+    filter: invert(74%) sepia(7%) saturate(2588%) hue-rotate(200deg) brightness(103%) contrast(105%);
+    
+}
+
+.content_elipsis:hover{
+    filter: invert(100%) sepia(0%) saturate(3519%) hue-rotate(215deg) brightness(121%) contrast(100%);
+    transition-delay: 0.05s;
+}
+
+
+.content_label{
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.content_lastInfo{
+    margin: 15px 20px;
+}
+
+.content_actualInfo{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.actualInfo_h2{
+    font-weight: 200;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+
+.textInformation_span{
+    font-size: 22px;
+}
+
+.main_userCard{
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.textInformation_span{
+    display: block;
+}
+
+.divTime_spanTime{
+    margin: 0px 30px ;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.divTime_spanTime:hover{
+    color: white;
+}
+
+
+.dataUser_img{
+    width: 60px;
+    height: 60px;
+    border: 3px solid white;
+    border-radius: 40px;
+}
+.userCard_dataUser{
+    background-color: var(--blue);
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    padding: 20px;
+}
+
+.main_divUserDataTime{
+    display: grid;
+    gap: 20px;
+}
+
+@media(min-width : 1000px) {
+
+    .main{
+        margin-top: 250px;
+        display: grid;
+        width: 1000px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        gap : 20px;
+    }
+
+    .main_divUserDataTime{
+        grid-template-columns: repeat(3,250px);
+        grid-auto-rows: minmax(200px,auto);
+        gap : 20px;
+        /*width: 200px;*/
+    }
+    
+    .divUserDataTime{
+        
+        margin-top: 0px;
+    }
+    .main_userCard{
+
+        grid-row: 1/2;
+        position: relative;
+        margin: 0px auto;
+        
+        
+    }
+
+    .userCard_dataUser{
+        grid-column: 1/2;
+        height: 60%;
+        width: 150px;
+        flex-direction: column;
+        
+        
+    }
+    .dataUser_textInformation{
+        margin-top: 30px;
+        left: 0px;
+    }
+
+    .textInformation_span{
+        font-size: 32px;
+        font-weight: 200;
+    }
+
+    .dataUser_divTime{
+        display: flex;
+        flex-direction: column;
+        width: 140px;
+        padding: 25px 25px 35px 25px;
+    }
+
+    .divUserDataTime_header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .divUserDataTime_content{
+        height: 100%;
+    }
+
+    .header_icon{
+        position: relative;
+        left: 0px;
+    }
+
+    .content_label{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+
+    .textInformation_label{
+        font-size: 14px;
+    }
+
+}
+

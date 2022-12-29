@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <main class="main">
+
+    <div class="main_userCard">
+      <div class="userCard_dataUser">
+        <img class="dataUser_img" src="images/image-jeremy.png" alt="user icon">
+        
+        <div class="dataUser_textInformation">
+          <label class="textInformation_label">
+            Report for
+          </label>
+    
+          <span class="textInformation_span">
+            Jeremy Robson
+          </span>
+        </div>        
+      </div>
+    
+      <div class="dataUser_divTime">
+        <span class="divTime_spanTime divTime_spanTime--1">Daily</span>
+        <span class="divTime_spanTime divTime_spanTime--2">Weekly</span>
+        <span class="divTime_spanTime divTime_spanTime--3">Monthly</span>
+      </div>
+    </div>
+
+    <div class="main_divUserDataTime">
+
+        <div class="divUserDataTime divUserDataTime--work">
+          
+          <div class="divUserDataTime_header divUserDataTime_header--work">
+            <img class="header_icon header_icon--work" src="images/icon-work.svg" alt="undefined">
+          </div>
+          
+          <div class="divUserDataTime_content divUserDataTime_content--work">
+            
+            <div class="content_actualInfo">
+              <span class="actualInfo_span"></span>
+              <h2 class="actualInfo_h2"></h2>
+            </div>
+
+            <div class="content_lastInfo">
+              <img class="content_elipsis" src="images/icon-ellipsis.svg" alt="elipsis">
+              <label class="content_label"></label>
+            </div>
+
+            <!--Work
+              5hrs  //daily// 
+              Previous - 7hrs  //daily// 
+              32hrs  //weekly// 
+              Previous - 36hrs  //weekly 
+              103hrs  //monthly// 
+              Previous - 128hrs <!-- monthly --> 
+          </div>
+        </div>
+
+        <div class="divUserDataTime divUserDataTime--play">
+
+          <div class="divUserDataTime_header divUserDataTime_header--play">
+            <img class="header_icon header_icon--play" src="images/icon-play.svg" alt="undefined">
+          </div>
+
+          <div class="divUserDataTime_content divUserDataTime_content--play">
+            
+            <div class="content_actualInfo">
+              <span class="actualInfo_span"></span>
+              <h2 class="actualInfo_h2"></h2>
+            </div>
+
+            <div class="content_lastInfo">
+              <img class="content_elipsis" src="images/icon-ellipsis.svg" alt="elipsis">
+              <label class="content_label"></label>
+            </div>
+          </div>
+
+
+          <!--
+          Play
+          1hr daily 
+          Previous - 2hrs  daily 
+          10hrs  weekly
+          Previous - 8hrs weekly
+          23hrs  monthly 
+          Previous - 29hrs  monthly 
+          --> 
+        </div>
+
+        <div class="divUserDataTime divUserDataTime--study">
+          
+          <div class="divUserDataTime_header divUserDataTime_header--study">
+            <img class="header_icon header_icon--study" src="images/icon-study.svg" alt="undefined">
+          </div>
+
+          <div class="divUserDataTime_content divUserDataTime_content--study">
+            
+            <div class="content_actualInfo">
+              <span class="actualInfo_span"></span>
+              <h2 class="actualInfo_h2"></h2>
+            </div>
+
+            <div class="content_lastInfo">
+              <img class="content_elipsis" src="images/icon-ellipsis.svg" alt="elipsis">
+              <label class="content_label"></label>
+            </div>
+          </div>
+
+
+            <!--
+            Study
+            0hrs  daily 
+            Previous - 1hr  daily 
+            4hrs  weekly 
+            Previous - 7hrs weekly 
+            13hrs  monthly 
+            Previous - 19hrs  monthly -->
+
+        </div>
+
+        <div class="divUserDataTime divUserDataTime--exercise">
+          
+          <div class="divUserDataTime_header divUserDataTime_header--exercise">
+            <img class="header_icon header_icon--exercise" src="images/icon-exercise.svg" alt="undefined">
+          </div>
+
+          <div class="divUserDataTime_content divUserDataTime_content--exercise">
+            
+            <div class="content_actualInfo">
+              <span class="actualInfo_span"></span>
+              <h2 class="actualInfo_h2"></h2>
+            </div>
+
+            <div class="content_lastInfo">
+              <img class="content_elipsis" src="images/icon-ellipsis.svg" alt="elipsis">
+              <label class="content_label"></label>
+            </div>
+          </div>
+          
+          
+          <!--
+          Exercise
+          1hr  daily 
+          Previous - 1hr daily 
+          4hrs  weekly
+          Previous - 5hrs  weekly 
+          11hrs monthly 
+          Previous - 18hrs  monthly -->
+
+        </div>
+
+        <div class="divUserDataTime divUserDataTime--social">
+
+          <div class="divUserDataTime_header divUserDataTime_header--social">
+            <img class="header_icon header_icon--social" src="images/icon-social.svg" alt="undefined">
+          </div>
+
+          <div class="divUserDataTime_content divUserDataTime_content--social">
+            
+            <div class="content_actualInfo">
+              <span class="actualInfo_span"></span>
+              <h2 class="actualInfo_h2"></h2>
+            </div>
+
+            <div class="content_lastInfo">
+              <img class="content_elipsis" src="images/icon-ellipsis.svg" alt="elipsis">
+              <label class="content_label"></label>
+            </div>
+
+          </div>
+
+          <!--
+          Social
+          1hr daily 
+          Previous - 3hrs  daily
+          5hrs  weekly 
+          Previous - 10hrs weekly 
+          21hrs  monthly 
+          Previous - 23hrs  monthly -->
+
+        </div>
+
+        <div class="divUserDataTime divUserDataTime--selfCare">
+
+          <div class="divUserDataTime_header divUserDataTime_header--selfCare">
+            <img class="header_icon header_icon--selfCare" src="images/icon-self-care.svg" alt="undefined">
+          </div>
+
+          <div class="divUserDataTime_content divUserDataTime_content--selfCare">
+            
+            <div class="content_actualInfo">
+              <span class="actualInfo_span"></span>
+              <h2 class="actualInfo_h2"></h2>
+            </div>
+
+            <div class="content_lastInfo">
+              <img class="content_elipsis" src="images/icon-ellipsis.svg" alt="elipsis">
+              <label class="content_label"></label>
+            </div>
+
+          </div>
+
+
+
+            <!--
+            Self Care
+            0hrs daily 
+            Previous - 1hr  daily 
+            2hrs  weekly 
+            Previous - 2hrs  weekly 
+            7hrs  monthly 
+            Previous - 11hrs monthly -->
+
+        </div>
+    </div>
+
+
+    
+  </main>
+
+
+<script type="module" src="script.js" ></script>  
+</body>
+</html>
